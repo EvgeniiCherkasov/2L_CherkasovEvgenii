@@ -115,7 +115,7 @@ print(addFibonachiNumber(array: &array, numberOfFibonachiElements: 4))
 
 func algoritmEratosphen(n: Int) -> [Int] {
     
-    arrayCreator(firstNumber: 1, lastNumber: n)
+    arrayCreator(firstNumber: 2, lastNumber: n)
     
     var array: [Int] = []
     var tmpArray = arrayCreator(firstNumber: 2, lastNumber: n)
@@ -143,7 +143,7 @@ func algoritmEratosphen(n: Int) -> [Int] {
     return array
 }
 
-print(algoritmEratosphen(n: 100))
+print(algoritmEratosphen(n: 50))
 
 
 
